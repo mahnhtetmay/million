@@ -12,23 +12,28 @@
                     <li>
                         <span class="icon lnr-icon-phone-handset" ></span>
                         <span class="title">Requesting A Call:</span>
-                        <div class="text"><a href="tel:+92880098670">+(959) 5418443</a></div>
+                        <div class="text"><a href="tel:+92880098670">029353570</a></div>
                     </li>
+                    {{-- <li>
+                        <span class="icon lnr-icon-phone-handset" ></span>
+                        <span class="title">Requesting A Call:</span>
+                        <div class="text"><a href="tel:+92880098670">0834359900</a></div>
+                    </li> --}}
                     <li>
                         <i class="icon lnr-icon-map-marker"></i>
-                        <span class="title">No.(92),(G/F),Seikkantha St,Kyauktada T/S, </span>
-                        <div class="text">Yangon.</div>
+                        <span class="title">242/22 Ladprao 112, Phlapphla Subdistrict, Bangkok 10310. </span>
+                        <div class="text">Thailand.</div>
                     </li>
                     <li>
                         <span class="icon lnr-icon-envelope1"></span>
                         <span class="title">Email Address:</span>
-                        <div class="text"><a href="tel:+92880098670">info@millionmyanmar.com</a></div>
+                        <div class="text"><a href="tel:+92880098670">milliontin.myanmar@gmail.com </a></div>
                     </li>
-                    <li>
+                    {{-- <li>
                         <span class="icon lnr-icon-clock"></span>
                         <span class="title">MONDAY - SATURADAY:</span>
                         <div class="text">9:00 AM - 5:00 PM</div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
 
@@ -55,7 +60,7 @@
                     <ul class="navigation">
                         <li ><a href="" style="color:gold;" >HOME</a></li>
 
-                        <li class="dropdown">
+                        {{-- <li class="dropdown">
                             <a href="#" style="color:gold;">OUR BUSINESS GROUP</a>
                             <ul>
                                 <li><a href="" >Overseas Employment Agency </a></li>
@@ -64,6 +69,60 @@
                                 <li><a href="" >Entertainment </a></li>
 
                             </ul>
+                        </li> --}}
+                        <li class="current has-mega-menu dropdown" >
+                            <a href="" style="color:gold;">
+                               BUSINESS GROUP
+                            </a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-bar row">
+                                    <div class="column col-lg-6">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <img src="{{ asset('assets/data/passport.png') }}" alt=""
+                                                        style="width: 40px; height: 40px;">
+                                                    Travels & Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="column col-lg-6">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <img src="{{ asset('assets/data/mortgage.png') }}" alt=""
+                                                        style="width: 40px; height: 40px;">
+                                                    Real Estate
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="column col-lg-6">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <img src="{{ asset('assets/data/manager.png') }}" alt=""
+                                                        style="width: 40px; height: 40px;">
+                                                    Employment Agency
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="column col-lg-6">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <img src="{{ asset('assets/data/tv.png') }}" alt=""
+                                                        style="width: 40px; height: 40px;">
+                                                    Entertainment
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="dropdown">
                             <a href="#" style="color:gold;">OUR EXPERT TEAMS</a>
@@ -111,17 +170,18 @@
                 <li>
                     <i class="icon lnr-icon-phone-handset"></i>
                     <span class="title">Call Now</span>
-                    <div class="text"><a href="tel:+92880098670">+(959) 5418443</a></div>
+                    <div class="text"><a href="tel:+92880098670">029353570</a></div>
                 </li>
+                
                 <li>
                     <i class="icon lnr-icon-envelope1"></i>
                     <span class="title">Send Email</span>
-                    <div class="text"><a href="mailto:help@company.com">info@millionmyanmar.com</a></div>
+                    <div class="text"><a href="mailto:help@company.com">milliontin.myanmar@gmail.com </a></div>
                 </li>
                 <li>
                     <i class="icon lnr-icon-map-marker"></i>
                     <span class="title">Address</span>
-                    <div class="text">No.(92),(G/F),Seikkantha St,Kyauktada T/S,Yangon.</div>
+                    <div class="text">242/22 Ladprao 112, Phlapphla Subdistrict, Wang Thonglang District, Bangkok 10310 </div>
                 </li>
             </ul>
 

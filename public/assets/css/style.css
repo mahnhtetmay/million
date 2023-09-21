@@ -7074,7 +7074,7 @@ Banner Section Ten
 ***/
 .about-section-four {
   position: relative;
-  padding: 120px 0 70px;
+  padding: 90px 0 70px;
   background-color: var(--theme-color-dark);
 }
 .about-section-four .content-column {
@@ -8721,7 +8721,7 @@ Services Section
 ***/
 .services-section {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 60px 0 90px;
   z-index: 3;
   background-color: var(--theme-color-dark);
 }
@@ -9496,7 +9496,7 @@ Services Section Seven
 ***/
 .services-section-eight {
   position: relative;
-  padding: 120px 0 60px;
+  padding: 40px 0 30px;
   background-color: var(--theme-color-dark);
 }
 
@@ -15611,7 +15611,7 @@ Services Section Seven
 ***/
 .testimonial-section-eight {
   position: relative;
-  padding: 120px 0 90px;
+  padding: 40px 0 90px;
   background-color: var(--theme-color-dark);
 }
 .testimonial-section-eight .owl-carousel {
