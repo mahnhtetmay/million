@@ -63,8 +63,8 @@
 </section>
 
 
-<section class="testimonial-section-eight">
-    <div class="auto-container">
+<section class="testimonial-section-eight"  >
+    <div class="auto-container" >
         <div class="sec-title light v3 text-center">
             <span class="sub-title">About Us</span>
             <h2>What they  do?</h2>
@@ -106,7 +106,7 @@
             </div>
 
             <!-- Testimonial Block -->
-            <div class="testimonial-block-eight">
+            <div class="testimonial-block-eight" style="background-color: black;">
                 <div class="inner-box">
                     <div class="info-box">
                         <div class="image-box">
@@ -162,17 +162,17 @@
         </div>
     </div>
 </section>
-<section class="about-section-four"  >
+<section class="about-section-four"  style="background-image: url({{asset('assets/data/ab-bg.png')}})">
     <div class="bg bg-pattern-1"></div>
     <div class="auto-container">
         <div class="row">
             <!-- Content Column -->
             <div class="content-column col-xl-6 col-lg-6 wow fadeInRight" data-wow-delay="600ms">
                 <div class="inner-column">
-                    <div class="sec-title light">
-                        <span class="sub-title">About Company</span>
+                    <div class="sec-title light" >
+                        <span class="sub-title" style="color:black;">About Company</span>
                         <h3 style="color: gold;">Million House Thailand</h3>
-                        <div class="text">
+                        <div class="text" style="color:black;">
                             เรยีนผูป้ระกอบการ/นายจา้ง/เจา้ของธรุกจิ/ในประเทศไทย ดว้ยบรษิทัGOLDENSEAMYANMARCO.,LTD.โดยMR.MILLION(มลิเลย่ีน)ประธานบรหิารเป็น
                             บรษิ ทั จดั หางานทถ่ี กู ตอ้ งตามกฎหมายของประเทศสหภาพเมยี นมาร ์ ไดร้ บั การจดทะเบยี นเมอ่ื ปี พ.ศ. 2547 (ค.ศ.2004) ใบอนุญาตเลขท่ี063/2004เรามปีระสบการณใ์นการจดัสง่คนงานชาวเมยีนมารไ์ปทางานใน ประเทศตา่งๆเป็นเวลานับ10ปีเชน่ ประเทศญป่ีุ่น,สงิคโปร์,มาเลเซยี และประเทศไทย
                             นอกจากการจดัสง่คนงานเพอ่ืไปทางานกบันายจา้งสถานประกอบการตา่งๆแลว้เรายงัเป็นบรษิทัฯทไ่ีด้ จดั สง่ นักศกึ ษาบุคลากรชาวพม่าเพอ่ื ไปศกึ ษาดงู าน ฝึกอบรมในสถานศกึ ษาของประเทศตา่ งๆ มากมายสาหรบั การจดั สง่แรงงานชาวเมยี นมารใ์หเ้ขา้มาทางานกบั นายจา้งในประเทศไทยน้ันเราไดป้ ฏบิ ตั ติ ามกฎหมายทท่ี ง้ัสอง ประเทศกาหนดและตามบนัทกึขอ้ตกลงความเขา้ใจระหวา่งกนัของทางการไทยกบัทางการสหภาพเมยีนมาร์ (MOU)
@@ -343,43 +343,77 @@
         </div>
     </div>
 </section>
-<section class="services-section-eight">
+<section class="services-section">
     <div class="auto-container">
-        <div class="sec-title light v3 text-center">
-            <span class="sub-title">Best SERVICE</span>
-            <h2>Unlocking Your Business <br>Potential</h2>
+        <div class="sec-title light">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span class="sub-title">ISO Certificates</span>
+                    <h2>Helping you achieve your <br>financial goals</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text">Lorem ipsum dolor sit amet consectetur. Praesent sit idr massa. Scelerisque vivamus varius tortor suspendisse commodo eget aliquam conset sit. In iaculis mattis aliquam turpis lectus sagittis erat pharetra.</div>
+                </div>
+            </div>
         </div>
+
         <div class="row">
-            <!-- Service Block eight -->
-            <div class="service-block-eight col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="400ms">
+            <!-- News Block -->
+            <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                 <div class="inner-box">
-                    <div class="content-box">
-                        <div class="icon"><i class="flaticon-creativity"></i></div>
-                        <h4 class="title"><a href="">Data Backup <br>and Recovery</a></h4>
+                    <div class="image-box">
+                        <figure class="image"><a href=""><img src="{{asset('assets/data/iso1.jpg')}}" alt=""></a></figure>
+                        {{-- <span><img src="{{asset('assets/data/logo2.jpg')}}" alt="" style="width:50px;height:50px;"></span> --}}
+                        <span class="icon flaticon-diploma" style="color: gold;"></span>
                     </div>
-                    <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout. </div>
+                    <div class="content-box" >
+                        {{-- <h4 class="title" style="background-color:black;height:50px;line-height:-5px;"><a href="" style="line-height: -2px;">Cash Flow</a></h4> --}}
+                        {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
+                        <a href="" class="theme-btn btn-style-two light"><span class="btn-title">ISO CERTIFICATES <i class="fa fa-arrow-right"></i></span></a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Service Block eight -->
-            <div class="service-block-eight col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
+            <!-- News Block -->
+            <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                 <div class="inner-box">
-                   <div class="content-box">
-                        <div class="icon"><i class="flaticon-cog-1"></i></div>
-                        <h4 class="title"><a href="">Social Media <br>Management</a></h4>
-                   </div>
-                    <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout. </div>
+                    <div class="image-box">
+                        <figure class="image"><a href=""><img src="{{asset('assets/data/iso2.png')}}" alt=""></a></figure>
+                        <span class="icon flaticon-diploma"></span>
+                    </div>
+                    <div class="content-box">
+                        <h4 class="title"><a href="">Budget Buddy</a></h4>
+                        {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
+                        {{-- <a href="" class="theme-btn btn-style-two light"><span class="btn-title">Read More <i class="fa fa-arrow-right"></i></span></a> --}}
+                    </div>
                 </div>
             </div>
 
-            <!-- Service Block eight -->
-            <div class="service-block-eight col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay="400ms">
+            <!-- News Block -->
+            <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                 <div class="inner-box">
-                    <div class="content-box">
-                        <div class="icon"><i class="flaticon-diamond-2"></i></div>
-                        <h4 class="title"><a href="">Database <br>Management</a></h4>
+                    <div class="image-box">
+                        <figure class="image"><a href=""><img src="{{asset('assets/data/iso3.png')}}" alt=""></a></figure>
+                        <span class="icon flaticon-diploma"></span>
                     </div>
-                    <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout. </div>
+                    <div class="content-box">
+                        <h4 class="title"><a href="">Money Wise</a></h4>
+                        {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
+                        {{-- <a href="" class="theme-btn btn-style-two light"><span class="btn-title">Read More <i class="fa fa-arrow-right"></i></span></a> --}}
+                    </div>
+                </div>
+            </div>
+            <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><a href=""><img src="{{asset('assets/data/iso4.png')}}" alt=""></a></figure>
+                        <span class="icon flaticon-diploma"></span>
+                    </div>
+                    <div class="content-box">
+                        <h4 class="title"><a href="">Money Wise</a></h4>
+                        {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
+                        {{-- <a href="" class="theme-btn btn-style-two light"><span class="btn-title">Read More <i class="fa fa-arrow-right"></i></span></a> --}}
+                    </div>
                 </div>
             </div>
         </div>
