@@ -22,7 +22,7 @@
               
               .glow {
                 font-size: 50px;
-                color: gold;
+                color: goldenrod;
                 text-align: center;
                 animation: glow 1s ease-in-out infinite alternate;
                 
@@ -35,7 +35,7 @@
                 }
                 
                 to {
-                  text-shadow: 0 0 10px #fff, 0 0 10px #fff34d, 0 0 10px #gold, 0 0 20px gold, 0 0 10px #fffc4d, 0 0 10px #eaff4d, 0 0 10px gold;
+                  text-shadow: 0 0 10px #fff, 0 0 10px black, 0 0 10px #gold, 0 0 20px gold, 0 0 10px black, 0 0 10px black, 0 0 10px gold;
                 }
               }
               </style>
@@ -69,7 +69,7 @@
       </div>
 
       <div class="image-box wow fadeIn" >
-          <div class="bg-image" style=" background-image: url({{asset('assets/images/banner/b8.png')}})" ></div>
+          <div class="bg-image" style=" background-image: url({{asset('assets/images/banner/b8.png')}})" style="background-size:cover;"></div>
           <div class="overlay-shape"></div>
       </div>
   </div>
