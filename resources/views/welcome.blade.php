@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+{{-- Our Business Group --}}
     <section class="project-section-eight" style="background-image: url({{ asset('assets/data/about-bg3.png') }})">
         <div class="auto-container">
             <div class="sec-title light v3 text-center">
@@ -65,7 +66,7 @@
         </div>
     </section>
 
-
+{{-- About Us --}}
     <section class="testimonial-section-eight">
         <div class="auto-container">
             <div class="sec-title light v3 text-center">
@@ -182,7 +183,8 @@
             </div>
         </div>
     </section>
-    
+
+{{-- About Company --}}
     <section class="about-section-four" style="background-image: url({{ asset('assets/data/ab-bg.png') }})">
         <div class="bg bg-pattern-1"></div>
         <div class="auto-container">
@@ -265,8 +267,31 @@
             </div>
         </div>
     </section>
-    
-    <section class="process-section-four  ">
+
+    <section class="about-section-four" style="background-color: #fafafa;">
+        <div class="bg bg-pattern-1"></div>
+        <div class="auto-container">
+            <div class="row">
+                <!-- Content Column -->
+                
+
+                <!-- Image Column -->
+                <div class="image-column col-xl-12 col-lg-12">
+                    <div class="inner-column">
+                        <span class="icon-dots bounce-x"></span>
+                        <figure class="image-1 overlay-anim wow fadeInUp"><img
+                                src="{{ asset('assets/data/business3.png') }}" alt="" width: 100%; height: 250px;
+                                background-size: top; object-fit: cover></figure>
+                        {{-- <figure class="image-2 overlay-anim wow fadeInLeft"><img src="{{asset('assets/images/resource/about4-2.jpg')}}" alt=""></figure> --}}
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Vision, Mission and Values --}}
+    {{-- <section class="process-section-four  " style="background-image: url({{ asset('assets/data/bg4.png') }})">
         <div class="auto-container">
             <div class="sec-title v2 text-center">
                 <span class="sub-title">Million House's Strategy</span>
@@ -313,10 +338,74 @@
                 </div>
             </div>
         </div>
+    </section> --}}
+    <section class="about-section-four" >
+        <div class="auto-container">
+            <div class="row">
+                <!-- Content Column -->
+                <div class="content-column col-xl-6 col-lg-6 wow fadeInRight" data-wow-delay="600ms">
+                    <div class="inner-column">
+                        <div class="sec-title light">
+                            <span class="sub-title">About Company</span>
+                            <h2>Empowering your financial <br>freedom</h2>
+                            <div class="text">It is a long established fact that a reader will be distracted by the readablejk content of a page when looking at its layout. Lorem Ipsum simply dummyjl text</div>
+                        </div>
+                        <div class="row">
+                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
+                                    <h4 class="title">Cyber Security</h4>
+                                    <div class="text">It is a long established fact that a reader will be</div>
+                                </div>
+                            </div>
+                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
+                                    <h4 class="title">Cyber Security</h4>
+                                    <div class="text">It is a long established fact that a reader will be</div>
+                                </div>
+                            </div>
+                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
+                                    <h4 class="title">Cyber Security</h4>
+                                    <div class="text">It is a long established fact that a reader will be</div>
+                                </div>
+                            </div>
+                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="icon-box"><i class="icon flaticon-production"></i></div>
+                                    <h4 class="title">Our Mission</h4>
+                                    <div class="text">It is a long established fact that a reader will be</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <div class="auther-info">
+                                <figure class="thumb"><img src="images/resource/about-thumb4-1.jpg" alt=""></figure>
+                                <h4 class="title">Eleanor Pena</h4>
+                                <span class="designation">Web Designer</span>
+                            </div>
+                            <a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Get Started <i class="fa fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-xl-6 col-lg-6">
+                    <div class="inner-column">
+                        <span class="icon-dots bounce-x"></span>
+                        <figure class="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about4-1.jpg" alt=""></figure>
+                        <figure class="image-2 overlay-anim wow fadeInLeft"><img src="images/resource/about4-2.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    
-    <section class="services-section">
+     {{-- ISO Certificates --}}
+    <section class="services-section" style="background-image: url({{ asset('assets/data/bg5.png') }})">
         <div class="auto-container">
             <div class="sec-title light">
                 <div class="row">
@@ -337,7 +426,7 @@
                 <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img src="{{ asset('assets/data/iso1.jpg') }}"
+                            <figure class="image"><a href=""><img src="{{ asset('assets/data/iso1.png') }}"
                                         alt=""></a></figure>
                             {{-- <span><img src="{{asset('assets/data/logo2.jpg')}}" alt="" style="width:60px;height:60px;"></span> --}}
                             <span class="icon flaticon-diploma"></span>
@@ -355,7 +444,7 @@
                 <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img src="{{ asset('assets/data/iso2.png') }}"
+                            <figure class="image"><a href=""><img src="{{ asset('assets/data/cer2.png') }}"
                                         alt=""></a></figure>
                             <span class="icon flaticon-diploma"></span>
                         </div>
@@ -373,7 +462,7 @@
                 <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img src="{{ asset('assets/data/iso3.png') }}"
+                            <figure class="image"><a href=""><img src="{{ asset('assets/data/cer3.png') }}"
                                         alt=""></a></figure>
                             <span class="icon flaticon-diploma"></span>
                         </div>
@@ -389,7 +478,7 @@
                 <div class="service-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img src="{{ asset('assets/data/iso4.png') }}"
+                            <figure class="image"><a href=""><img src="{{ asset('assets/data/cer4.png') }}"
                                         alt=""></a></figure>
                             <span class="icon flaticon-diploma"></span>
                         </div>
@@ -405,6 +494,8 @@
             </div>
         </div>
     </section>
+
+     {{-- Counter --}}
     <section class="fun-fact-section-three">
         <div class="auto-container">
             <div class="fact-counter">
@@ -457,73 +548,76 @@
         </div>
     </section>
 
-    {{-- <section class="team-section-nine">    
-    <div class="auto-container">
-        <div class="sec-title v3 text-center">
-            <span class="sub-title">Best Team</span>
-            <h2>Making Your Business design <br>Dreams a Reality</h2>
-        </div>
-
-        <div class="row">
-            <!-- Team block nine -->
-            <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-1.jpg')}}" alt=""></a></figure>
-                    </div>
-                    <div class="info-box">
-                        <h4 class="name"><a href="page-team-details.html">Albert Flores</a></h4>
-                        <span class="designation">Web Designer</span>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </div> 
-                    </div>
-                </div>
+    {{-- Teams --}}
+    <section class="team-section-nine" style="background-color: #32323a;">    
+        <div class="auto-container">
+            <div class="sec-title v3 text-center">
+                <span class="sub-title" style="color:white">Best Team</span>
+                <h2 style="color:white">Making Your Business design <br>Dreams a Reality</h2>
             </div>
 
-            <!-- Team block Four -->
-            <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-2.jpg')}}" alt=""></a></figure>
+            <div class="row">
+                <!-- Team block nine -->
+                <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-1.jpg')}}" alt=""></a></figure>
+                        </div>
+                        <div class="info-box">
+                            <h4 class="name"><a href="page-team-details.html">Albert Flores</a></h4>
+                            <span class="designation">Web Designer</span>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div> 
+                        </div>
                     </div>
-                    <div class="info-box">
-                        <h4 class="name"><a href="page-team-details.html">Jerome Bell</a></h4>
-                        <span class="designation">Marketing Coordinator</span>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+                <!-- Team block Four -->
+                <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-2.jpg')}}" alt=""></a></figure>
+                        </div>
+                        <div class="info-box">
+                            <h4 class="name"><a href="page-team-details.html">Jerome Bell</a></h4>
+                            <span class="designation">Marketing Coordinator</span>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team block nine -->
+                <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-3.jpg')}}" alt=""></a></figure>
+                        </div>
+                        <div class="info-box">
+                            <h4 class="name"><a href="page-team-details.html">Eleanor Pena</a></h4>
+                            <span class="designation">President of Sales</span>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Team block nine -->
-            <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-3.jpg')}}" alt=""></a></figure>
-                    </div>
-                    <div class="info-box">
-                        <h4 class="name"><a href="page-team-details.html">Eleanor Pena</a></h4>
-                        <span class="designation">President of Sales</span>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-</section> --}}
+    </section>
+    
+    {{-- Countries --}}
     <section class="testimonial-section-five" style="background-color: #fafafa;">
         <div class="auto-container">
             <div class="sec-title light text-center">
@@ -631,10 +725,11 @@
         </div>
     </section>
     
+    {{-- Partnership --}}
     <section class="testimonial-section ">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title">testimonisls</span>
+                <span class="sub-title">Our Partnerships</span>
                 <h2>Navigating digital with precision <br>and purpose</h2>
             </div>
 
@@ -776,6 +871,8 @@
             </div>
         </div>
     </section>
+   
+   {{-- Newsletter short --}}
     <section class="subscribe-section-two">
         <div class="auto-container">
             <div class="row">
@@ -810,6 +907,7 @@
         </div>
     </section>
     <br>
+    {{-- Update News --}}
     <section class="news-section-ten pt-0">
         <div class="auto-container">
             <div class="sec-title v3 text-center">

@@ -3,7 +3,7 @@
     <div class="header-top">
         <div class="inner-container">
             <div class="top-left">
-                <div class="logo"><a href=""><img src="{{ asset('assets/data/logo2.jpg') }}" alt=""
+                <div class="logo"><a href="{{route('welcome')}}"><img src="{{ asset('assets/data/logo2.jpg') }}" alt=""
                             title="Congrow" style="width: 100%;height:100px;"></a></div>
             </div>
 
@@ -58,7 +58,7 @@
             <div class="nav-outer">
                 <nav class="nav main-menu" >
                     <ul class="navigation">
-                        <li ><a href="" style="color:gold;" >HOME</a></li>
+                        <li ><a href="{{route('welcome')}}" style="color:gold;" >HOME</a></li>
 
                         {{-- <li class="dropdown">
                             <a href="#" style="color:gold;">OUR BUSINESS GROUP</a>
@@ -132,7 +132,7 @@
                             </ul>
                         </li>
                         <li><a href="" style="color:gold;">ISO</a></li>
-                        <li><a href="" style="color:gold;">ABOUT US</a></li>
+                        <li><a href="{{route('about.index')}}" style="color:gold;">ABOUT US</a></li>
                         <li><a href="" style="color:gold;">GROUP OF EVENTS</a></li>
                         <li><a href="" style="color:gold;">CSR</a></li>
                         
@@ -204,7 +204,7 @@
             <div class="inner-container">
                 <!--Logo-->
                 <div class="logo">
-                    <a href="" title=""><img src="{{asset('assets/data/logo.jpg')}}" alt="" title="" style="width: 140px;height:auto;"></a>
+                    <a href="{{route('welcome')}}" title=""><img src="{{asset('assets/data/logo.jpg')}}" alt="" title="" style="width: 140px;height:auto;"></a>
                 </div>
 
                 <!--Right Col-->
@@ -231,7 +231,7 @@
 <section class="hidden-bar" >
     <div class="inner-box">
         <div class="upper-box">
-            <div class="nav-logo"><a href="index.html"><img src="{{asset('assets/data/logo2.jpg')}}" alt="" title="" style="height:100px;"></a></div>
+            <div class="nav-logo"><a href="{{route('welcome')}}"><img src="{{asset('assets/data/logo2.jpg')}}" alt="" title="" style="height:100px;"></a></div>
             <div class="close-btn"><i class="icon fa fa-times"></i></div>
         </div>
 
