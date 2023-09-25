@@ -268,7 +268,7 @@
         </div>
     </section>
 
-    <section class="about-section-four" style="background-color: #fafafa;">
+    <section class="about-section-four" >
         <div class="bg bg-pattern-1"></div>
         <div class="auto-container">
             <div class="row">
@@ -280,7 +280,7 @@
                     <div class="inner-column">
                         <span class="icon-dots bounce-x"></span>
                         <figure class="image-1 overlay-anim wow fadeInUp"><img
-                                src="{{ asset('assets/data/business3.png') }}" alt="" width: 100%; height: 250px;
+                                src="{{ asset('assets/data/business5.png') }}" alt="" width: 100%; height: 250px;
                                 background-size: top; object-fit: cover></figure>
                         {{-- <figure class="image-2 overlay-anim wow fadeInLeft"><img src="{{asset('assets/images/resource/about4-2.jpg')}}" alt=""></figure> --}}
                         
@@ -339,65 +339,85 @@
             </div>
         </div>
     </section> --}}
-    <section class="about-section-four" >
+  
+
+    <section class="services-section-three" style="background-color: #fafafa;">
         <div class="auto-container">
+            <div class="sec-title v2 text-center">
+                <span class="sub-title">Best Service</span>
+                <h2>Transforming challenges <br>into opportunities</h2>
+            </div>
+    
             <div class="row">
-                <!-- Content Column -->
-                <div class="content-column col-xl-6 col-lg-6 wow fadeInRight" data-wow-delay="600ms">
-                    <div class="inner-column">
-                        <div class="sec-title light">
-                            <span class="sub-title">About Company</span>
-                            <h2>Empowering your financial <br>freedom</h2>
-                            <div class="text">It is a long established fact that a reader will be distracted by the readablejk content of a page when looking at its layout. Lorem Ipsum simply dummyjl text</div>
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box" >
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/vision6.jpeg')}}" alt="" ></a></figure>
+                            <span class="icon flaticon-diploma"></span>
                         </div>
-                        <div class="row">
-                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
-                                    <h4 class="title">Cyber Security</h4>
-                                    <div class="text">It is a long established fact that a reader will be</div>
-                                </div>
+                        <div class="content-box" >
+                            <h4 class="title"><a href="" style="color:black;">Our Vision</a></h4>
+                            <div class="text">Our vision is to create a global network of companies that lead by  shaping industries through innovation and sustainable practices, leaving a positive legacy for future generations.
+                                
                             </div>
-                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
-                                    <h4 class="title">Cyber Security</h4>
-                                    <div class="text">It is a long established fact that a reader will be</div>
-                                </div>
-                            </div>
-                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="icon-box"><i class="icon flaticon-puzzle"></i></div>
-                                    <h4 class="title">Cyber Security</h4>
-                                    <div class="text">It is a long established fact that a reader will be</div>
-                                </div>
-                            </div>
-                            <div class="info-block-four col-lg-6 col-md-6 col-sm-12">
-                                <div class="inner">
-                                    <div class="icon-box"><i class="icon flaticon-production"></i></div>
-                                    <h4 class="title">Our Mission</h4>
-                                    <div class="text">It is a long established fact that a reader will be</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="btn-box">
-                            <div class="auther-info">
-                                <figure class="thumb"><img src="images/resource/about-thumb4-1.jpg" alt=""></figure>
-                                <h4 class="title">Eleanor Pena</h4>
-                                <span class="designation">Web Designer</span>
-                            </div>
-                            <a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Get Started <i class="fa fa-arrow-right"></i></span></a>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
                         </div>
                     </div>
                 </div>
 
-                <!-- Image Column -->
-                <div class="image-column col-xl-6 col-lg-6">
-                    <div class="inner-column">
-                        <span class="icon-dots bounce-x"></span>
-                        <figure class="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about4-1.jpg" alt=""></figure>
-                        <figure class="image-2 overlay-anim wow fadeInLeft"><img src="images/resource/about4-2.jpg" alt=""></figure>
-                        
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="inner-box" style="background-color: black">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/mission3.jpeg')}}" alt="" ></a></figure>
+                            <span class="icon flaticon-target"></span>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title"><a href="">Our Mission</a></h4>
+                            <div class="text">We are committed to creating services across our diverse portfolio of companies, driven by a passion for excellence, sustainability, and customer satisfaction.</div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="inner-box" style="background-color: black">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/values5.jpeg')}}" alt=""></a></figure>
+                            <span class="icon flaticon-approved"></span>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title"><a href="">Our Mission</a></h4>
+                            <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout.</div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                    <div class="inner-box" style="background-color: black">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/goal2.png')}}" alt=""></a></figure>
+                            <span class="icon flaticon-approved"></span>
+                        </div>
+                        <div class="content-box">
+                            <h4 class="title"><a href="">Accelerate Ace</a></h4>
+                            <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout.</div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
                     </div>
                 </div>
             </div>
