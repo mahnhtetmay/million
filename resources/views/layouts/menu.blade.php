@@ -3,23 +3,24 @@
     <div class="header-top">
         <div class="inner-container">
             <div class="top-left">
-                <div class="logo"><a href="{{route('welcome')}}"><img src="{{ asset('assets/data/logo2.jpg') }}" alt=""
-                            title="Congrow" style="width: 100%;height:100px;"></a></div>
+                <div class="logo"><a href="{{route('welcome')}}"><img src="{{ asset('assets/data/logo-letter.png') }}" alt=""
+                            title="Congrow" style="width: 100%;height:75px;"></a></div>
             </div>
 
             <div class="top-right">
                 <ul class="header-contact-list">
                     <li>
-                        <span class="icon lnr-icon-phone-handset" ></span>
+                        <img src="{{asset('assets/data/phone1.png')}}" style="width:140px;height:70px;">
+                        {{-- <span class="icon lnr-icon-phone-handset" ></span>
                         <span class="title">Requesting A Call:</span>
-                        <div class="text"><a href="tel:+92880098670">029353570</a></div>
+                        <div class="text"><a href="tel:+92880098670">029353570</a>
+                        </div> --}}
                     </li>
-                    {{-- <li>
-                        <span class="icon lnr-icon-phone-handset" ></span>
-                        <span class="title">Requesting A Call:</span>
-                        <div class="text"><a href="tel:+92880098670">0834359900</a></div>
-                    </li> --}}
                     <li>
+                        <img src="{{asset('assets/data/fig.png')}}" style="width:150px;height:60px;">
+                    </li>
+                    <li>
+                        
                         <i class="icon lnr-icon-map-marker"></i>
                         <span class="title">242/22 Ladprao 112, Phlapphla Subdistrict, Bangkok 10310. </span>
                         <div class="text">Thailand.</div>
@@ -74,15 +75,15 @@
                             <a href="" style="color:gold;">
                                BUSINESS GROUP
                             </a>
-                            <div class="mega-menu">
-                                <div class="mega-menu-bar row">
+                            <div class="mega-menu" style="background-color: black;">
+                                <div class="mega-menu-bar row" >
                                     <div class="column col-lg-6">
                                         <ul>
                                             <li>
-                                                <a href="">
+                                                <a href="" style="color:gold;">
                                                     <img src="{{ asset('assets/data/passport.png') }}" alt=""
-                                                        style="width: 40px; height: 40px;">
-                                                    Travels & Tours
+                                                        style="width: 40px; height: 40px; ">
+                                                   TRAVELS & TOURS
                                                 </a>
                                             </li>
                                         </ul>
@@ -90,10 +91,10 @@
                                     <div class="column col-lg-6">
                                         <ul>
                                             <li>
-                                                <a href="">
+                                                <a href="" style="color:gold;">
                                                     <img src="{{ asset('assets/data/mortgage.png') }}" alt=""
                                                         style="width: 40px; height: 40px;">
-                                                    Real Estate
+                                                    REAL ESTATE
                                                 </a>
                                             </li>
                                         </ul>
@@ -102,10 +103,10 @@
                                     <div class="column col-lg-6">
                                         <ul>
                                             <li>
-                                                <a href="">
+                                                <a href="" style="color:gold;">
                                                     <img src="{{ asset('assets/data/manager.png') }}" alt=""
                                                         style="width: 40px; height: 40px;">
-                                                    Employment Agency
+                                                    EMPLOYMENT AGENCY
                                                 </a>
                                             </li>
                                         </ul>
@@ -113,10 +114,10 @@
                                     <div class="column col-lg-6">
                                         <ul>
                                             <li>
-                                                <a href="">
+                                                <a href="" style="color:gold;">
                                                     <img src="{{ asset('assets/data/tv.png') }}" alt=""
                                                         style="width: 40px; height: 40px;">
-                                                    Entertainment
+                                                    ENTERTAINMENT
                                                 </a>
                                             </li>
                                         </ul>

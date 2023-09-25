@@ -18,9 +18,9 @@
     <div class="page-wrapper">
         @include('layouts.menu')
 
-        {{-- @if (URL::current() == route('home')) --}}
+        @if (URL::current() == route('welcome'))
         @include('layouts.slider')
-        {{-- @endif --}}
+        @endif
 
         @yield('content')
 

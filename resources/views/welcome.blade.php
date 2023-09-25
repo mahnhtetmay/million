@@ -273,7 +273,10 @@
         <div class="auto-container">
             <div class="row">
                 <!-- Content Column -->
-                
+                <div class="sec-title v2 text-center">
+                    <span class="sub-title" style="color:white;">Million House Milestone</span>
+                    <h2 style="color:white;">Delivering Hapiness at every step......</h2>
+                </div>
 
                 <!-- Image Column -->
                 <div class="image-column col-xl-12 col-lg-12">
@@ -344,8 +347,9 @@
     <section class="services-section-three" style="background-color: #fafafa;">
         <div class="auto-container">
             <div class="sec-title v2 text-center">
-                <span class="sub-title">Best Service</span>
-                <h2>Transforming challenges <br>into opportunities</h2>
+                <span class="sub-title">Our Business Strategy</span>
+                <h2>Delivering Hapiness at every step......</h2>
+                <span>Our values lie at the heart of the organisation and mark the genesis of our vision and mission that steer the Corporation’s business and operations. We believe that performance is multi-faceted and needs to be assessed quantitatively and qualitatively, incorporating all the stakeholders and aspects impacted with reference to the current business dynamics.</span>
             </div>
     
             <div class="row">
@@ -354,7 +358,7 @@
                     <div class="inner-box" >
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/vision6.jpeg')}}" alt="" ></a></figure>
-                            <span class="icon flaticon-diploma"></span>
+                            <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box" >
                             <h4 class="title"><a href="" style="color:black;">Our Vision</a></h4>
@@ -392,11 +396,19 @@
                     <div class="inner-box" style="background-color: black">
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/values5.jpeg')}}" alt=""></a></figure>
-                            <span class="icon flaticon-approved"></span>
+                            <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box">
-                            <h4 class="title"><a href="">Our Mission</a></h4>
-                            <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout.</div>
+                            <h4 class="title"><a href="" style="color:black;">Our Values</a></h4>
+                            <div class="text">
+                                <i class="fa fa-check" style="color:gold;"></i> Integrity <br>
+                                <i class="fa fa-check" style="color:gold;"></i> Innovation<br>
+                                <i class="fa fa-check" style="color:gold;"></i> Customer-Centric<br>
+                                <i class="fa fa-check" style="color:gold;"></i> Sustainability<br>
+                                <i class="fa fa-check" style="color:gold;"></i> Collaboration<br>
+                                <i class="fa fa-check" style="color:gold;"></i> Excellence
+                                
+                            </div>
                             <i class="fa fa-star" style="color:gold;"></i>
                             <i class="fa fa-star" style="color:gold;"></i>
                             <i class="fa fa-star" style="color:gold;"></i>
@@ -408,11 +420,14 @@
                     <div class="inner-box" style="background-color: black">
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/goal2.png')}}" alt=""></a></figure>
-                            <span class="icon flaticon-approved"></span>
+                            <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box">
-                            <h4 class="title"><a href="">Accelerate Ace</a></h4>
-                            <div class="text">It is a long established fact that a reader jki will be distracted by the readable contentjli of a page when looking at its layout.</div>
+                            <h4 class="title"><a href="" style="color:black;">Our Goals</a></h4>
+                            <div class="text">
+                                To deliver a professional, elite & swift no nonsense service to all our clients and candidates.
+                                An organisation is recognised by its value system which celibrates the behaviour of its employees and their professional endeavours and engagements. 
+                            </div>
                             <i class="fa fa-star" style="color:gold;"></i>
                             <i class="fa fa-star" style="color:gold;"></i>
                             <i class="fa fa-star" style="color:gold;"></i>
@@ -434,9 +449,10 @@
                         <h2>Helping you achieve your <br>financial goals</h2>
                     </div>
                     <div class="col-lg-6">
-                        <div class="text">Lorem ipsum dolor sit amet consectetur. Praesent sit idr massa. Scelerisque
-                            vivamus varius tortor suspendisse commodo eget aliquam conset sit. In iaculis mattis aliquam
-                            turpis lectus sagittis erat pharetra.</div>
+                        <div class="text">
+                            We always try the best for our customers.
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -569,11 +585,11 @@
     </section>
 
     {{-- Teams --}}
-    <section class="team-section-nine" style="background-color: #32323a;">    
+    {{-- <section class="team-section-nine" style="background-color: #32323a;">    
         <div class="auto-container">
             <div class="sec-title v3 text-center">
                 <span class="sub-title" style="color:white">Best Team</span>
-                <h2 style="color:white">Making Your Business design <br>Dreams a Reality</h2>
+                <h2 style="color:white">Making Your <br>Dreams a Reality</h2>
             </div>
 
             <div class="row">
@@ -581,10 +597,10 @@
                 <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-1.jpg')}}" alt=""></a></figure>
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/team1.jpeg')}}" alt=""></a></figure>
                         </div>
                         <div class="info-box">
-                            <h4 class="name"><a href="page-team-details.html">Albert Flores</a></h4>
+                            <h4 class="name"><a href="">Albert Flores</a></h4>
                             <span class="designation">Web Designer</span>
                             <div class="social-links">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -600,10 +616,10 @@
                 <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-2.jpg')}}" alt=""></a></figure>
+                            <figure class="image"><a href=""><img src="{{asset('assets/images/resource/team9-2.jpg')}}" alt=""></a></figure>
                         </div>
                         <div class="info-box">
-                            <h4 class="name"><a href="page-team-details.html">Jerome Bell</a></h4>
+                            <h4 class="name"><a href="">Jerome Bell</a></h4>
                             <span class="designation">Marketing Coordinator</span>
                             <div class="social-links">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -619,10 +635,10 @@
                 <div class="team-block-nine col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="page-team-details.html"><img src="{{asset('assets/images/resource/team9-3.jpg')}}" alt=""></a></figure>
+                            <figure class="image"><a href=""><img src="{{asset('assets/images/resource/team9-3.jpg')}}" alt=""></a></figure>
                         </div>
                         <div class="info-box">
-                            <h4 class="name"><a href="page-team-details.html">Eleanor Pena</a></h4>
+                            <h4 class="name"><a href="">Eleanor Pena</a></h4>
                             <span class="designation">President of Sales</span>
                             <div class="social-links">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -633,6 +649,172 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section> --}}
+    {{-- <section class="services-section-three" style="background-color: #32323a;">
+        <div class="auto-container">
+            <div class="sec-title v2 text-center">
+                <span class="sub-title">Our Business Strategy</span>
+                <h2>Delivering Hapiness at every step......</h2>
+                <span>Our values lie at the heart of the organisation and mark the genesis of our vision and mission that steer the Corporation’s business and operations. We believe that performance is multi-faceted and needs to be assessed quantitatively and qualitatively, incorporating all the stakeholders and aspects impacted with reference to the current business dynamics.</span>
+            </div>
+    
+            <div class="row">
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box" >
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/team1.png')}}" alt="" ></a></figure>
+                            
+                        </div>
+                        <div class="content-box" >
+                            <h6 class="title"><a href="" style="color:darkblue;">Mr.Chookiat Bauphang</a></h6>
+                            <div class="text">
+                                Chairman
+                                
+                            </div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="inner-box" >
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/team2.png')}}" alt="" ></a></figure>
+                        </div>
+                        <div class="content-box">
+                            <h6 class="title"><a href="" style="color:darkblue;">Mr.Million Tun</a></h6>
+                            <div class="text">
+                                CEO
+                            </div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- service Block -->
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="inner-box" >
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/team3.png')}}" alt="" ></a></figure>
+                        </div>
+                        <div class="content-box">
+                            <h6 class="title"><a href="" style="color:darkblue; font-size:16.5px;">Mr. Asdang Methakasejthikul</a></h6>
+                            <div class="text">
+                                MD
+                            </div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="inner-box" >
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img src="{{asset('assets/data/team3.png')}}" alt="" ></a></figure>
+                        </div>
+                        <div class="content-box">
+                            <h6 class="title"><a href="" style="color:darkblue; font-size:16.5px;">Mr. Asdang Methakasejthikul</a></h6>
+                            <div class="text">
+                                MD
+                            </div>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> --}}
+
+    <section class="news-section-ten  py-3" style="background-color: #32323a;">
+        <div class="auto-container">
+            <div class="sec-title v3 text-center">
+                <span class="sub-title" style="color:white">BOARD OF DIRECTORS</span>
+                <h2 style="color:white">Making Your Dreams a Reality</h2>
+                {{-- <a href="news-grid.html" class="theme-btn btn-style-one read-more"><span class="btn-title">more blogs <i
+                            class="fa fa-arrow-right"></i></span></a> --}}
+            </div>
+
+            <!-- news slider -->
+            <div class="row">
+                <!-- News Block -->
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img
+                                        src="{{ asset('assets/data/team1.png') }}" alt=""></a>
+                            </figure>
+                            {{-- <span class="date">Million House</span> --}}
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li style="color:darkblue; font-size:16px;font-weight:bold"><i class="fa fa-user"></i>Mr.Chookiat Bauphang</li>
+                                {{-- <li><i class="fa fa-comments"></i>Comments</li> --}}
+                            </ul>
+                            <h6 class="title"><a href="" style="font-size:14px;">Chairman</a></h6>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img
+                                        src="{{ asset('assets/data/team2.png') }}" alt=""></a>
+                            </figure>
+                            {{-- <span class="date">Million House</span> --}}
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li style="color:darkblue; font-size:16px;font-weight:bold;"><i class="fa fa-user"></i>Mr.Million Tun</li>
+                                {{-- <li><i class="fa fa-comments"></i>Comments</li> --}}
+                            </ul>
+                            <h6 class="title"><a href="" style="font-size:14px;">Chief Executive Officer (CEO)</a></h6>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href=""><img
+                                        src="{{ asset('assets/data/team3.png') }}" alt=""></a>
+                            </figure>
+                            {{-- <span class="date">Million House</span> --}}
+                        </div>
+                        <div class="content-box">
+                            <ul class="post-meta">
+                                <li style="color:darkblue; font-size:16px;font-weight:bold"><i class="fa fa-user"></i>Mr. Asdang Methakasejthikul </li>
+                                {{-- <li><i class="fa fa-comments"></i>Comments</li> --}}
+                            </ul>
+                            <h6 class="title"><a href="" style="font-size:14px;">Managing Director</a></h6>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                            <i class="fa fa-star" style="color:gold;"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Block -->
+               
             </div>
         </div>
     </section>
