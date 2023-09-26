@@ -7,7 +7,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><i class="icon fa fa-location-dot"></i></div>
                         <h6 class="title">Location</h6>
-                        <div class="text">45/A, Gouardai, Los Angel, USA</div>
+                        <div class="text">242/22 Ladprao 112, Phlapphla Subdistrict, Bangkok 10310.</div>
                     </div>
                 </div>
 
@@ -16,7 +16,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><i class="icon fa fa-phone"></i></div>
                         <h6 class="title">Phone</h6>
-                        <div class="text"><a href="tel:+92880098670">(629) 555-0129</a></div>
+                        <div class="text"><a href="tel:029353570">029353570</a></div>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><i class="icon fa fa-paper-plane"></i></div>
                         <h6 class="title">E-mail</h6>
-                        <div class="text"><a href="mailto:admin@email.com">admin@email.com</a></div>
+                        <div class="text"><a href="mailto:milliontin.myanmar@gmail.com">milliontin.myanmar@gmail.com</a></div>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,9 @@
     </div>
 </section>
 <footer class="main-footer footer-style-one">
-    <div class="bg footer-bg-1"></div>
+    <div class="bg footer">
+        <img src="{{asset('assets/data/footer_2.gif')}}" style="width:100%; bakcground-size:cover;object-fit:contain;">
+    </div>
     <!-- Widgets Section -->
     <div class="widgets-section">
         <div class="auto-container">
@@ -42,7 +44,7 @@
                 <div class="footer-column col-xl-3 col-lg-6 col-md-6">
                     <div class="footer-widget about-widget">
                         <div class="widget-content">
-                            <div class="logo"><a href="#"> <img src="images/logo-2.png" alt=""></a></div>
+                            <div class="logo"><a href="#"> <img src="{{asset('assets/data/logo2.jpg')}}" alt="" style="width:100px; height:100px;"></a></div>
                             <div class="text">Lorem ipsum dolor sit amet consectetur  Vesti bulum imperdiet corai orci tempus tincidunt ultrices </div>
                             <ul class="social-icon-two">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -59,12 +61,12 @@
                         <h4 class="widget-title">Our service</h4>
                         <div class="widget-content">
                             <ul class="user-links light">
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Cloud services</a></li>
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Backup solutions</a></li>
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Network security</a></li>
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Monitoring</a></li>
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Email services</a></li>
-                                <li><i class="icon fa fa-square-check"></i><a href="#">Remote support</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">About Us</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">Travels & Tours</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">Real Estate</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">Employment Agency</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">Entertainment</a></li>
+                                <li><i class="icon fa fa-square-check"></i><a href="#">CSR</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,18 +80,18 @@
                             <!-- Recent Post -->
                             <div class="recent-post">
                                 <div class="inner">
-                                    <figure class="post-thumb"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                    <h6 class="post-title"><a href="#">Simplifying your finan journey</a></h6>
-                                    <div class="post-info"><i class="fas fa-calendar-alt"></i> 02 January 2023</div>
+                                    <figure class="post-thumb"><a href="#"><img src="{{asset('assets/images/resource/post-thumb-1.jpg')}}" alt=""></a></figure>
+                                    <h6 class="post-title"><a href="#">Travelling Activities</a></h6>
+                                    <div class="post-info"><i class="fas fa-calendar-alt"></i> 24 Sep 2019</div>
                                 </div>
                             </div>
 
                             <!-- Recent Post -->
                             <div class="recent-post">
                                 <div class="inner">
-                                    <figure class="post-thumb"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                    <h6 class="post-title"><a href="#">Invest in your dreams with us</a></h6>
-                                    <div class="post-info"><i class="fas fa-calendar-alt"></i> 02 January 2023</div>
+                                    <figure class="post-thumb"><a href="#"><img src="{{asset('assets/images/resource/post-thumb-2.jpg')}}" alt=""></a></figure>
+                                    <h6 class="post-title"><a href="#">Travelling Activities</a></h6>
+                                    <div class="post-info"><i class="fas fa-calendar-alt"></i> 24 Sep 2020</div>
                                 </div>
                             </div>
                         </div>
@@ -121,10 +123,10 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="inner-container">
-                <div class="copyright-text">© <a href="#">Yoursitename</a> 2023 | All Rights Reserved</div>
+                <div class="copyright-text">© <a href="#">millionmyanmar</a> 2023 | All Rights Reserved</div>
 
                 <ul class="footer-nav">
-                    <li><a href="#">Trams & Condition</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>

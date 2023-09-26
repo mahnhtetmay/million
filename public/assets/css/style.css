@@ -4930,7 +4930,7 @@ Banner Section
   position: absolute;
   top: 0;
   right: 0%;
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
 @media (max-width: 991.98px) {
@@ -5004,7 +5004,7 @@ Banner Section Two
   }
 }
 .banner-section-two .bg-image .bg-overlay {
-  background-image: url(../images/banner/overlay.png);
+  /* background-image: url(../images/banner/overlay.png); */
 }
 @media (max-width: 1199.98px) {
   .banner-section-two .bg-image .bg-overlay {
@@ -23198,7 +23198,7 @@ Page Title
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 280px;
   position: relative;
   /* margin-top: 120px; */
 }

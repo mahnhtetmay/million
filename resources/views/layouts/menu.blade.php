@@ -10,7 +10,7 @@
             <div class="top-right">
                 <ul class="header-contact-list">
                     <li>
-                        <img src="{{asset('assets/data/phone1.png')}}" style="width:140px;height:70px;">
+                        <img src="{{asset('assets/data/phone1.png')}}" style="width:170px;height:70px;">
                         {{-- <span class="icon lnr-icon-phone-handset" ></span>
                         <span class="title">Requesting A Call:</span>
                         <div class="text"><a href="tel:+92880098670">029353570</a>
@@ -125,16 +125,18 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" style="color:gold;">OUR EXPERT TEAMS</a>
+                        <li><a href="{{route('team.index')}}" style="color:gold;">LEADERSHIP TEAM</a></li>
+                        <li><a href="{{route('iso.index')}}" style="color:gold;">CERTIFICATES</a></li>
+                        <li class="dropdown" >
+                            <a href="{{route('about.index')}}" style="color:gold;">ABOUT US</a>
                             <ul>
-                                <li><a href="" >Team lists</a></li>
-                                <li><a href="" >Management Structure </a></li>
+                                <li><a href="{{route('about.index')}}" >Our Company</a></li>
+                                <li><a href="{{route('milestones.index')}}" >Our Milestones</a></li>
+                                <li><a href="{{route('strategy.index')}}" >Million's Strategy </a></li>
                             </ul>
                         </li>
-                        <li><a href="" style="color:gold;">ISO</a></li>
-                        <li><a href="{{route('about.index')}}" style="color:gold;">ABOUT US</a></li>
-                        <li><a href="" style="color:gold;">GROUP OF EVENTS</a></li>
+                        
+                        <li><a href="" style="color:gold;">ACTIVITIES</a></li>
                         <li><a href="" style="color:gold;">CSR</a></li>
                         
                     </ul>

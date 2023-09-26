@@ -1,76 +1,30 @@
-<section class="banner-section-five" >
-  <div class="bg bg-overlay"></div>
-  <img src="{{asset('assets/data/icon-star.png')}}" style="position: absolute;
-  left: 10%;
-  top: 77px;
-  width: 25px;
-  height: 27px;
-  animation: 10s infinite linear;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: left ;">
-  <img src="{{asset('assets/data/icon-star.png')}}">
+{{-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --}}
+<div class="w3-content " style="max-width:100%">
+  
 
-  {{-- <div class="icon icon-star bounce-x"></div> --}}
-  <div class="auto-container" >
-      <div class="row" >
-        <div class="content-column col-lg-5 col-md-12 col-sm-12" style="height:400px;">
-          <div class="inner-column" >
-        <div class="w3-container w3-center w3-animate-zoom">
-          <style>
-             
-              
-              .glow {
-                font-size: 50px;
-                color: goldenrod;
-                text-align: center;
-                animation: glow 1s ease-in-out infinite alternate;
-                
-                font-family: cursive;
-              }
-              
-              @-webkit-keyframes glow {
-                from {
-                  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px gold, 0 0 20px #e6cb00, 0 0 20px yellow, 0 0 10px #e6cb00, 0 0 10px #e6cb00;
-                }
-                
-                to {
-                  text-shadow: 0 0 10px #fff, 0 0 10px black, 0 0 10px #gold, 0 0 20px gold, 0 0 10px black, 0 0 10px black, 0 0 10px gold;
-                }
-              }
-              </style>
-              <h4 class="glow">MILIION MYANMAR GROUP OF COMPANIES</h4>
-                      {{-- <h2 style="font-family: cursive;">Our Services is your satisfication!</h2> --}}
-                      
-                      <marquee width="70%" direction="right" height="100px">
-                          
-                          <span style="font-size: 28px;  background: -webkit-linear-gradient(gold, #e6d007);
-                          -webkit-background-clip: text;
-                          -webkit-text-fill-color: transparent;font-weight:bold;font-family: cursive;">Our Services is your satisfication!</span>
-                      </marquee>
-                      
-                    </div>
-                    
-                  
-                 
-                  <div class="text wow fadeInUp" data-wow-delay="600ms"> </div>
-                  
-                  <div class="btn-box wow fadeInUp" data-wow-delay="900ms">
-                      <a href="" class="theme-btn btn-style-one read-more" style="background-color: gold;"><span class="btn-title">Join Now! <i class="fa fa-arrow-right"></i></span></a>
-                      
-                      <a href="tel:(629)555-0129" class="info-btn" >
-                        <i class="icon fa fa-phone" style="padding-right:50px;"></i>
-                        <i style="font-size: 18px;font-weight:bold;color:black">Need Help?</i>
-                        <strong>+(959) 5418443</strong>
-                    </a>
-                  </div>
-              </div>
-          </div>
-      </div>
+  <img class="mySlides w3-animate-fading" src="{{asset('assets/data/slider_2.png')}}" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="{{asset('assets/data/slider_1.png')}}" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="{{asset('assets/data/slider_4.png')}}" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="{{asset('assets/data/slider_5.png')}}" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="{{asset('assets/data/slider_6.png')}}" style="width:100%">
 
-      <div class="image-box wow fadeIn" >
-          <div class="bg-image" style=" background-image: url({{asset('assets/images/banner/b8.png')}})" style="background-size:cover;"></div>
-          <div class="overlay-shape"></div>
-      </div>
-  </div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+ 
 </section>

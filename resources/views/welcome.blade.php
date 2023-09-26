@@ -5,7 +5,7 @@
         <div class="auto-container">
             <div class="sec-title light v3 text-center">
                 <span class="sub-title">Our Business Group</span>
-                <h2>Roadway to Corporate <br>Sustainability</h2>
+                <h3>Roadway to Corporate <br>Sustainability</h3>
             </div>
 
             <div class="row">
@@ -71,7 +71,7 @@
         <div class="auto-container">
             <div class="sec-title light v3 text-center">
                 <span class="sub-title">About Us</span>
-                <h2>What they do?</h2>
+                <h3>What they do?</h3>
             </div>
 
             <div class="">
@@ -268,14 +268,19 @@
         </div>
     </section>
 
+{{-- Milestones --}}
     <section class="about-section-four" >
         <div class="bg bg-pattern-1"></div>
         <div class="auto-container">
             <div class="row">
                 <!-- Content Column -->
                 <div class="sec-title v2 text-center">
-                    <span class="sub-title" style="color:white;">Million House Milestone</span>
-                    <h2 style="color:white;">Delivering Hapiness at every step......</h2>
+                    <span class="sub-title" style="color:goldenrod; font-size:24px;">Our Milestones</span>
+                   
+                        <h6 style="color:#fafafa; font-size:18px;">"Since our establishment in 2010, 
+                            we've embarked on an exciting journey of growth and innovation.These milestones reflect our dedication to progress and our journey towards a brighter future.Delivering Hapiness at every step......"
+                        </h6>
+                   
                 </div>
 
                 <!-- Image Column -->
@@ -343,12 +348,11 @@
         </div>
     </section> --}}
   
-
     <section class="services-section-three" style="background-color: #fafafa;">
         <div class="auto-container">
             <div class="sec-title v2 text-center">
-                <span class="sub-title">Our Business Strategy</span>
-                <h2>Delivering Hapiness at every step......</h2>
+                <span class="sub-title" style="color:#09043d; font-size:24px;">Our Business Strategy</span>
+                <h2></h2>
                 <span>Our values lie at the heart of the organisation and mark the genesis of our vision and mission that steer the Corporation’s business and operations. We believe that performance is multi-faceted and needs to be assessed quantitatively and qualitatively, incorporating all the stakeholders and aspects impacted with reference to the current business dynamics.</span>
             </div>
     
@@ -357,11 +361,14 @@
                 <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box" >
                         <div class="image-box">
-                            <figure class="image"><a href=""><img src="{{asset('assets/data/vision6.jpeg')}}" alt="" ></a></figure>
+                            <figure class="image">
+                                <a href=""><img src="{{asset('assets/data/vision6.jpeg')}}" alt=""  style="width: 100%;background-size:contain;object-fit:contain;">
+                                </a>
+                            </figure>
                             <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box" >
-                            <h4 class="title"><a href="" style="color:black;">Our Vision</a></h4>
+                            <h4 class="title"><a href="" style="color:#09096e;font-weight:bold;">Our Vision</a></h4>
                             <div class="text">Our vision is to create a global network of companies that lead by  shaping industries through innovation and sustainable practices, leaving a positive legacy for future generations.
                                 
                             </div>
@@ -375,13 +382,13 @@
 
                 <!-- service Block -->
                 <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="inner-box" style="background-color: black">
+                    <div class="inner-box" >
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/mission3.jpeg')}}" alt="" ></a></figure>
                             <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box">
-                            <h4 class="title"><a href="">Our Mission</a></h4>
+                            <h4 class="title" style="color:#09096e;font-weight:bold;"><a href="">Our Mission</a></h4>
                             <div class="text">We are committed to creating services across our diverse portfolio of companies, driven by a passion for excellence, sustainability, and customer satisfaction.</div>
                             <i class="fa fa-star" style="color:gold;"></i>
                             <i class="fa fa-star" style="color:gold;"></i>
@@ -393,13 +400,13 @@
 
                 <!-- service Block -->
                 <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-                    <div class="inner-box" style="background-color: black">
+                    <div class="inner-box" >
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/values5.jpeg')}}" alt=""></a></figure>
                             <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box">
-                            <h4 class="title"><a href="" style="color:black;">Our Values</a></h4>
+                            <h4 class="title"><a href="" style="color:#09096e;font-weight:bold;">Our Values</a></h4>
                             <div class="text">
                                 <i class="fa fa-check" style="color:gold;"></i> Integrity <br>
                                 <i class="fa fa-check" style="color:gold;"></i> Innovation<br>
@@ -417,13 +424,13 @@
                     </div>
                 </div>
                 <div class="service-block-three col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-                    <div class="inner-box" style="background-color: black">
+                    <div class="inner-box" >
                         <div class="image-box">
                             <figure class="image"><a href=""><img src="{{asset('assets/data/goal2.png')}}" alt=""></a></figure>
                             <span class="icon flaticon-target"></span>
                         </div>
                         <div class="content-box">
-                            <h4 class="title"><a href="" style="color:black;">Our Goals</a></h4>
+                            <h4 class="title"><a href="" style="color:#09096e;font-weight:bold;">Our Goals</a></h4>
                             <div class="text">
                                 To deliver a professional, elite & swift no nonsense service to all our clients and candidates.
                                 An organisation is recognised by its value system which celibrates the behaviour of its employees and their professional endeavours and engagements. 
@@ -438,6 +445,7 @@
             </div>
         </div>
     </section>
+    
 
      {{-- ISO Certificates --}}
     <section class="services-section" style="background-image: url({{ asset('assets/data/bg5.png') }})">
@@ -445,12 +453,12 @@
             <div class="sec-title light">
                 <div class="row">
                     <div class="col-lg-6">
-                        <span class="sub-title">ISO Certificates</span>
-                        <h2>Helping you achieve your <br>financial goals</h2>
+                        <span class="sub-title">Our approval licenses</span>
+                        <h3 style="color:white;">OUR  <br>APPROVAL LICENSES</h3>
                     </div>
                     <div class="col-lg-6">
                         <div class="text">
-                            We always try the best for our customers.
+                            We always try the best for our customers.These certifications and awards reflect our unwavering commitment to quality, excellence, and environmental responsibility, ensuring our customers can trust in the value we deliver.
                             
                         </div>
                     </div>
@@ -470,8 +478,9 @@
                         <div class="content-box">
                             {{-- <h4 class="title" style="background-color:black;height:50px;line-height:-5px;"><a href="" style="line-height: -2px;">Cash Flow</a></h4> --}}
                             {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
-                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">ISO
-                                    CERTIFICATES </span></a>
+                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">
+                                Company
+                                    License </span></a>
                         </div>
                     </div>
                 </div>
@@ -485,8 +494,8 @@
                             <span class="icon flaticon-diploma"></span>
                         </div>
                         <div class="content-box">
-                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">ISO
-                                    CERTIFICATES </span></a>
+                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">Company
+                                    License </span></a>
 
                             {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
                             {{-- <a href="" class="theme-btn btn-style-two light"><span class="btn-title">Read More </span></a> --}}
@@ -505,8 +514,9 @@
                         <div class="content-box">
                             {{-- <h4 class="title"><a href="">Money Wise</a></h4> --}}
                             {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
-                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">ISO
-                                    CERTIFICATES </span></a>
+                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">
+                                Company
+                                    License </span></a>
 
                         </div>
                     </div>
@@ -521,8 +531,9 @@
                         <div class="content-box">
                             {{-- <h4 class="title"><a href="">Money Wise</a></h4> --}}
                             {{-- <div class="text">Lorem ipsum dolor amet consectetur. Purus ut nec aliquet diam sed tellus lobortis. Odio varius Lorem ipsum dolor sit amet</div> --}}
-                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">ISO
-                                    CERTIFICATES </span></a>
+                            <a href="" class="theme-btn btn-style-two light"><span class="btn-title">
+                                Company
+                                    License </span></a>
 
                         </div>
                     </div>
@@ -743,9 +754,9 @@
 
     <section class="news-section-ten  py-3" style="background-color: #32323a;">
         <div class="auto-container">
-            <div class="sec-title v3 text-center">
-                <span class="sub-title" style="color:white">BOARD OF DIRECTORS</span>
-                <h2 style="color:white">Making Your Dreams a Reality</h2>
+            <div class="sec-title v3 text-center"><br>
+                <span class="sub-title" style="color:white;font-size:24px;">BOARD OF DIRECTORS</span>
+                <h2 ></h2>
                 {{-- <a href="news-grid.html" class="theme-btn btn-style-one read-more"><span class="btn-title">more blogs <i
                             class="fa fa-arrow-right"></i></span></a> --}}
             </div>
@@ -932,7 +943,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">Our Partnerships</span>
-                <h2>Navigating digital with precision <br>and purpose</h2>
+                <h3>Who's Hiring With Us </h3>
             </div>
 
 
@@ -1113,8 +1124,8 @@
     <section class="news-section-ten pt-0">
         <div class="auto-container">
             <div class="sec-title v3 text-center">
-                <span class="sub-title">blog and news</span>
-                <h2>Innovative solutions for a <br>better tomorrow</h2>
+                <span class="sub-title">blogs and news</span>
+                <h4 style="font-family:cursive">Enjoy you daily life with us through the most valuable thing</h4>
                 {{-- <a href="news-grid.html" class="theme-btn btn-style-one read-more"><span class="btn-title">more blogs <i
                             class="fa fa-arrow-right"></i></span></a> --}}
             </div>
@@ -1125,91 +1136,106 @@
                 <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img
-                                        src="{{ asset('assets/images/resource/news10-1.jpg') }}" alt=""></a>
+                            <figure class="image">
+                                <video  controls width="100%" height="100%" >
+                                    <source src="{{asset('data/blog1.mp4')}}" type="video/mp4" >
+                                    
+                                   
+                                  </video>
                             </figure>
-                            <span class="date">28 May 2023</span>
+                            <span class="date">14 Jan 2020</span>
                         </div>
                         <div class="content-box">
                             <ul class="post-meta">
                                 <li><i class="fa fa-user"></i>By admin</li>
-                                <li><i class="fa fa-comments"></i>Comments</li>
+                                <li><i class="fa fa-comments"></i>Million House</li>
                             </ul>
-                            <h4 class="title"><a href="">Tech Solutions</a></h4>
-                            <div class="text">It is a long established fact that a reader will lil be distracted by the
-                                readable content of ahjkli page when looking at its layout.</div>
-                            <a href="" class=" read-more"><span class="btn-title">Read More <i
-                                        class="fa fa-arrow-right"></i></span></a>
+                            <h4 class="title"><a href="" style="color:#09096e;font-size:20px;">Travels Activities</a></h4>
+                            <div class="text">
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
 
                 <!-- News Block -->
-                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img
-                                        src="{{ asset('assets/images/resource/news10-2.jpg') }}" alt=""></a>
+                            <figure class="image">
+                                <video  controls width="100%" height="100%" >
+                                    <source src="{{asset('data/blog2.mp4')}}" type="video/mp4" >
+                                    
+                                   
+                                  </video>
                             </figure>
-                            <span class="date">28 May 2023</span>
+                            <span class="date">24 Sep 2019</span>
                         </div>
                         <div class="content-box">
                             <ul class="post-meta">
                                 <li><i class="fa fa-user"></i>By admin</li>
-                                <li><i class="fa fa-comments"></i>Comments</li>
+                                <li><i class="fa fa-comments"></i>Million House</li>
                             </ul>
-                            <h4 class="title"><a href="">Digital Marketing</a></h4>
-                            <div class="text">It is a long established fact that a reader will lil be distracted by the
-                                readable content of ahjkli page when looking at its layout.</div>
-                            <a href="" class=" read-more"><span class="btn-title">Read More <i
-                                        class="fa fa-arrow-right"></i></span></a>
+                            <h5 class="title" style="color:#09096e;font-size:20px;"><a href="">Travels Activities</a></h5>
+                            <div class="text">
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-
-                <!-- News Block -->
-                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img
-                                        src="{{ asset('assets/images/resource/news10-3.jpg') }}" alt=""></a>
+                            <figure class="image">
+                                <video  controls width="100%" height="100%" >
+                                    <source src="{{asset('data/blog3.mp4')}}" type="video/mp4" >
+                                    
+                                   
+                                  </video>
                             </figure>
-                            <span class="date">28 May 2023</span>
+                            <span class="date">24 Sep 2019</span>
                         </div>
                         <div class="content-box">
                             <ul class="post-meta">
                                 <li><i class="fa fa-user"></i>By admin</li>
-                                <li><i class="fa fa-comments"></i>Comments</li>
+                                <li><i class="fa fa-comments"></i>Million House</li>
                             </ul>
-                            <h4 class="title"><a href="">Web Development</a></h4>
-                            <div class="text">It is a long established fact that a reader will lil be distracted by the
-                                readable content of ahjkli page when looking at its layout.</div>
-                            <a href="" class=" read-more"><span class="btn-title">Read More <i
-                                        class="fa fa-arrow-right"></i></span></a>
+                            <h5 class="title" style="color:#09096e;font-size:20px;"><a href="">Travels Activities</a></h5>
+                            <div class="text">
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+                <div class="news-block-ten col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href=""><img
-                                        src="{{ asset('assets/images/resource/news10-3.jpg') }}" alt=""></a>
+                            <figure class="image">
+                                <video  controls width="100%" height="100%" >
+                                    <source src="{{asset('data/blog4.mp4')}}" type="video/mp4" >
+                                    
+                                   
+                                  </video>
                             </figure>
-                            <span class="date">28 May 2023</span>
+                            <span class="date">24 Sep 2019</span>
                         </div>
                         <div class="content-box">
                             <ul class="post-meta">
                                 <li><i class="fa fa-user"></i>By admin</li>
-                                <li><i class="fa fa-comments"></i>Comments</li>
+                                <li><i class="fa fa-comments"></i>Million House</li>
                             </ul>
-                            <h4 class="title"><a href="">Web Development</a></h4>
-                            <div class="text">It is a long established fact that a reader will lil be distracted by the
-                                readable content of ahjkli page when looking at its layout.</div>
-                            <a href="" class=" read-more"><span class="btn-title">Read More <i
-                                        class="fa fa-arrow-right"></i></span></a>
+                            <h5 class="title" style="color:#09096e;font-size:20px;"><a href="">Travels Activities</a></h5>
+                            <div class="text">
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
